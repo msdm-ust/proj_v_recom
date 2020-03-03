@@ -1,7 +1,7 @@
 # Project V - Recommendation Engine
 ![Proj](https://img.shields.io/badge/proj-wip-yellowgreen.svg)
 
-Project structure make reference of [this page](https://docs.python-guide.org/writing/structure/).
+Project structure makes reference of [this page](https://docs.python-guide.org/writing/structure/).
 
 ## Data Source
 
@@ -24,3 +24,5 @@ HUANG Yu
 
 
 ## Latest Update
+
+- 20200226: Data uploaded to './data'. Data source: https://www.kaggle.com/tmdb/tmdb-movie-metadata
