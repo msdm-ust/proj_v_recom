@@ -5,6 +5,7 @@ Instructions:
 2. Change the 3 paths in "contentBased2.py" according to the situation
 3. Run "app2.py"
 
+Notes:
 Done:
 1. Downloaded the cover of some movies to read conveniently from local 
 2. Some changes:
