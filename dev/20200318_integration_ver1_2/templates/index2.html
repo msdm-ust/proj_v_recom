@@ -40,7 +40,7 @@
                    for(var i =0;i<data.length;i++) {
                        html += '<div class="col-md-4 col-sm-4 col-lg-4">';
                        html += '<div class="thumbnail">';
-                       html += '<img src=' + data[i].url+ ' id="movie_img" alt="">';
+                       html += '<img src=' + data[i].url+ ' id="movie_img" alt="" style="height:220px ">';
                        html += '<div class="caption" style="height: 80px">';
                        html += '<p><a href="#" id="name">' + data[i].name +'</a></p>';
                        html += '<p id="rating" style="text-align: right">' + data[i].rating +
@@ -50,7 +50,6 @@
                            '</div>\n' +
                            '</div>';
                    }
-
                    $("#movieItems").html(html)
                }
            })
@@ -131,7 +130,7 @@
             <div class="col-md-4 col-sm-4 col-lg-4">
             <div class="thumbnail">
                 <!-- <img src="{{ movie.url }}" id="movie_img" alt=""> -->
-                <img src="{{ url_for('static',filename = movie.url) }}" id="movie_img" alt="">
+                <img src="{{ url_for('static',filename = movie.url) }}" id="movie_img" alt="" style="height:220px ">
                 <div class="caption" style="height: 80px">
                     <p><a href="#" id="name">{{ movie.name }}</a></p>
                     <p id="rating" style="text-align: right">{{ movie.rating }}

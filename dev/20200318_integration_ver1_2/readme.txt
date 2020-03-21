@@ -1,3 +1,20 @@
+20200318 15:10 By ZHONG Hui:
+
+How to test the system:
+1. download the whole file to your computer.
+2. click app2.py to run the project.
+3. Search movie to get recommendation result, you should type the exactly right movie name.
+eg. 'The Avengers'
+
+Done:
+1. Simplifiy the way of project runs by removing the unzip and input operations.
+2. Re-adjust the movie cover size.
+
+Pending:
+1. Add data exploration/visualization part to this program.
+2. Add function: If click the name of movies, then turn on the homepage of movie.
+(Q:many homepages in the dataset are invalid.)
+
 20200314 12:00 By HUANG Yu:
 
 Instructions:
@@ -15,6 +32,9 @@ Done:
 Pending:
 1. Try to solve the problem of getting cover pictures of the rest movies
 2. Add function: If click the name of movies, then turn on the homepage of movie
+
+
+
 
 20200314 09:00 By HUANG Yu:
 

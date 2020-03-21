@@ -4,10 +4,13 @@ import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 
-path = input('Please enter the path of this file:\nFor example: ".../20200318_integration_ver1_2/"\n')
-df1 = pd.read_csv('%s/data/tmdb_5000_credits.csv'%path)
-df2 = pd.read_csv('%s/data/tmdb_5000_movies.csv'%path)
-dire = os.walk('%s/static/img'%path)
+#path = input('Please enter the path of this file:\nFor example: ".../20200318_integration_ver1_2/"\n')
+#df1 = pd.read_csv('%s/data/tmdb_5000_credits.csv'%path)
+#df2 = pd.read_csv('%s/data/tmdb_5000_movies.csv'%path)
+#dire = os.walk('%s/static/img'%path)
+df1 = pd.read_csv('./data/tmdb_5000_credits.csv')
+df2 = pd.read_csv('./data/tmdb_5000_movies.csv')
+dire = os.walk('./static/img')
 success = []
 for file_list in dire:
     for file_name in file_list:
