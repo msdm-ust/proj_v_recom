@@ -26,3 +26,5 @@ HUANG Yu
 ## Latest Update
 
 - 20200226: Data uploaded to './data'. Data source: https://www.kaggle.com/tmdb/tmdb-movie-metadata
+- 20200404: Initial version with basic functions
+- 20200411: Fixed the “10 pages”, “exact name” and “no picture” issues
